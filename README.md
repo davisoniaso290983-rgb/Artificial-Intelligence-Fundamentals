@@ -1,5 +1,10 @@
-Projeto desenvolvido para a disciplina **Artificial Intelligence Fundamentals**
-Curso de Gestão da Tecnologia da Informação – UniFECAF
+#  Fundamentos da Inteligência Artificial
+
+>  **Status do Projeto:** Em desenvolvimento
+
+Projeto desenvolvido para a disciplina **Fundamentos da Inteligência Artificial**
+
+**Curso:** Gestão da Tecnologia da Informação – UniFECAF
 
 **Autora:** Sonia Avila
 
