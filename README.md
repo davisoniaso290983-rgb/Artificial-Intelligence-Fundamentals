@@ -260,18 +260,43 @@ Essa representação permite aplicar algoritmos clássicos de busca para encontr
 
 ---
 
-#  Algoritmos Utilizados
+Algoritmos Utilizados
 
-Este projeto utilizará os seguintes algoritmos estudados na disciplina:
+Algo assim:
 
-- Busca em Largura (BFS)
-- Busca em Profundidade (DFS)
-- Algoritmo A*
+## Algoritmos Utilizados
+
+Este projeto utilizará algoritmos clássicos de Inteligência Artificial estudados durante a disciplina.
+
+- Breadth-First Search (BFS)
+- Depth-First Search (DFS)
+- A*
 - K-Means
-
+- 
 Cada algoritmo será implementado e avaliado individualmente durante o desenvolvimento do projeto.
 
 ---
+Fluxo da Solução
+
+Uma imagem simples:
+
+Mapa da cidade
+        │
+        ▼
+Construção do Grafo
+        │
+        ▼
+Aplicação do BFS / DFS / A*
+        │
+        ▼
+Agrupamento K-Means
+        │
+        ▼
+Resultados
+
+---
+🟡 ## Como executar
+
 
 #  Resultados
 
