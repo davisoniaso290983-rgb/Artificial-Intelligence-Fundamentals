@@ -1,3 +1,5 @@
+## Otimização Inteligente de Rotas para a Sabor Express
+
 #  Fundamentos da Inteligência Artificial
 
 > **Status do Projeto:** Em desenvolvimento
@@ -7,8 +9,6 @@ Projeto desenvolvido para a disciplina **Fundamentos da Inteligência Artificial
 **Curso:** Gestão da Tecnologia da Informação – UniFECAF
 
 **Autora:** Sonia Avila
-
-## Projeto: Otimização Inteligente de Rotas para a Sabor Express
 
 ##  Descrição do Projeto
 
