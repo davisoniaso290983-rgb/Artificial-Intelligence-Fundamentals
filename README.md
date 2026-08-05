@@ -1,6 +1,6 @@
 #  Fundamentos da Inteligência Artificial
 
->  **Status do Projeto:** Em desenvolvimento
+> **Status do Projeto:** Em desenvolvimento
 
 Projeto desenvolvido para a disciplina **Fundamentos da Inteligência Artificial**
 
