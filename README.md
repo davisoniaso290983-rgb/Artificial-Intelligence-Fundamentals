@@ -71,6 +71,7 @@ O projeto foi organizado em pastas para facilitar o desenvolvimento, manutençã
 - 📄 requirements.txt
 - 📄 .gitignore
 ---
+## Explicação das Pastas
 
 ### 📁 src/
 
