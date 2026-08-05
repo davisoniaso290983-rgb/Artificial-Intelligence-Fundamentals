@@ -1,366 +1,292 @@
-a# 🚚 Otimização Inteligente de Rotas para a Sabor Express
+<img width="1070" height="121" alt="image" src="https://github.com/user-attachments/assets/5eaacb32-3fa4-40d6-8148-d8284bd6a239" />🚚 Otimização Inteligente de Rotas para a Sabor Express
 
-> Projeto acadêmico desenvolvido para a disciplina **Fundamentos da Inteligência Artificial**.
+Projeto acadêmico desenvolvido para a disciplina Fundamentos da Inteligência Artificial.
 
 📌 Status: 🚧 Em desenvolvimento
 
-🎓 Curso:  Gestão da Tecnologia da Informação – UniFECAF
+🎓 Curso: Gestão da Tecnologia da Informação – UniFECAF
 
 👩 Autora: Sonia Ávila de Oliveira
 
-##  Descrição do Projeto
+---
+## Descrição do Projeto
 
-Este projeto foi desenvolvido como atividade da disciplina **Artificial Intelligence Fundamentals**.
+Este projeto foi desenvolvido como atividade da disciplina Fundamentos da Inteligência Artificial.
 
-O desafio consiste em criar uma solução baseada em Inteligência Artificial para otimizar as rotas de entrega da empresa fictícia **Sabor Express**, um serviço de delivery localizado na região central da cidade.
+O desafio consiste em desenvolver uma solução baseada em Inteligência Artificial para otimizar as rotas de entrega da empresa fictícia Sabor Express, um serviço de delivery localizado na região central da cidade.
 
 Atualmente, as rotas são definidas manualmente pelos entregadores, utilizando apenas sua experiência. Essa abordagem pode gerar atrasos, aumento no consumo de combustível, percursos ineficientes e redução da satisfação dos clientes.
 
 A proposta deste projeto é aplicar algoritmos clássicos de Inteligência Artificial para representar a cidade como um grafo, calcular rotas mais eficientes e agrupar entregas próximas, contribuindo para uma operação mais rápida, econômica e organizada.
 
 ---
-
-#  Objetivos
-
-## Objetivo Geral
+## Objetivos
+### Objetivo Geral
 
 Desenvolver uma solução computacional utilizando algoritmos clássicos de Inteligência Artificial para otimizar as rotas de entrega da empresa Sabor Express.
 
 ## Objetivos Específicos
+Representar a cidade por meio de um grafo.
+Modelar bairros, ruas e pontos de entrega.
+Encontrar caminhos eficientes entre diferentes localidades.
+Comparar algoritmos clássicos de busca.
+Agrupar entregas utilizando técnicas de aprendizado não supervisionado.
+Avaliar os resultados obtidos.
 
-- Representar a cidade através de um grafo.
-- Modelar bairros, ruas e pontos de entrega.
-- Encontrar caminhos eficientes entre diferentes localidades.
-- Comparar diferentes algoritmos de busca.
-- Agrupar entregas próximas utilizando técnicas de aprendizado não supervisionado.
-- Avaliar os resultados obtidos.
+---
+## Ferramentas e Tecnologias
+Python 3.13
+NetworkX
+NumPy
+Pandas
+Matplotlib
+Scikit-Learn
+Visual Studio Code
+Git
+GitHub
 
 ---
 
-# Ferramentas e Tecnologias
+Estrutura do Projeto
 
-- Python 3.13
-- NetworkX
-- NumPy
-- Pandas
-- Matplotlib
-- Scikit-Learn
-- Visual Studio Code
-- Git
-- GitHub
+O projeto foi organizado em diretórios para facilitar o desenvolvimento, manutenção e organização do código-fonte.
 
----
+📁 src
+📁 algorithms
+📁 models
+📁 utils
+📁 data
+📁 docs
+📁 images
+📁 notebooks
+📁 tests
+📄 README.md
+📄 requirements.txt
+📄 .gitignore
+Explicação das Pastas
+📁 src/
 
-## 📂 Estrutura do Projeto
+A pasta src (source) reúne todo o código-fonte do projeto. Nela serão desenvolvidas as funcionalidades da aplicação, incluindo a implementação dos algoritmos de Inteligência Artificial, a modelagem do problema e as funções responsáveis pelo processamento dos dados.
 
+📁 src/algorithms/
 
-O projeto foi organizado em pastas para facilitar o desenvolvimento, manutenção e organização do código-fonte. Cada diretório possui uma responsabilidade específica dentro da solução.
+Nesta pasta serão implementados os algoritmos responsáveis pela resolução do problema proposto.
 
-## Estrutura do Projeto
+Entre os algoritmos previstos para este projeto estão:
 
-- 📁 src
-  - 📁 algorithms
-  - 📁 models
-  - 📁 utils
-- 📁 data
-- 📁 docs
-- 📁 images
-- 📁 notebooks
-- 📁 tests
-- 📄 README.md
-- 📄 requirements.txt
-- 📄 .gitignore
----
-## Explicação das Pastas
+Breadth-First Search (BFS);
+Depth-First Search (DFS);
+A*;
+K-Means.
 
-### 📁 src/
+Cada algoritmo será desenvolvido em um módulo independente, facilitando sua manutenção, reutilização e comparação de desempenho.
 
-A pasta **src** (source) reúne todo o código-fonte do projeto. É nela que serão desenvolvidas as funcionalidades da aplicação, incluindo a implementação dos algoritmos de Inteligência Artificial, a modelagem do problema e as funções responsáveis pelo processamento dos dados.
+📁 src/models/
 
----
+A pasta models armazenará a representação computacional do cenário utilizado na aplicação.
 
-### 📁 src/algorithms/
+Serão implementadas as estruturas responsáveis por representar:
 
-Nesta pasta serão implementados os algoritmos utilizados para resolver o problema proposto.
+bairros;
+ruas;
+pontos de entrega;
+conexões entre localidades;
+pesos das arestas (distância ou tempo).
 
-Os principais algoritmos previstos para este projeto são:
+Essas estruturas formarão o grafo utilizado pelos algoritmos.
 
-- **Breadth-First Search (BFS)** para busca em largura;
-- **Depth-First Search (DFS)** para busca em profundidade;
-- **A*** para encontrar o menor caminho utilizando heurísticas;
-- **K-Means** para agrupar entregas em regiões próximas.
+📁 src/utils/
 
-Cada algoritmo será desenvolvido em um arquivo separado, permitindo facilitar sua manutenção, reutilização e comparação de desempenho.
-
----
-
-### 📁 src/models/
-
-A pasta **models** será responsável pela representação computacional do cenário do problema.
-
-Nela serão criadas as estruturas que representam a cidade utilizada na simulação, incluindo:
-
-- bairros;
-- pontos de entrega;
-- ruas;
-- conexões entre localidades (arestas);
-- pesos das rotas, como distância ou tempo estimado.
-
-Essas informações formarão o grafo que será utilizado pelos algoritmos de busca.
-
----
-
-### 📁 src/utils/
-
-A pasta **utils** armazenará funções auxiliares utilizadas durante todo o desenvolvimento do projeto.
+A pasta utils armazenará funções auxiliares utilizadas em diferentes partes da aplicação.
 
 Entre elas poderão estar funções para:
 
-- leitura de arquivos;
-- manipulação de dados;
-- cálculos auxiliares;
-- impressão dos resultados;
-- geração de gráficos e relatórios.
+leitura de arquivos;
+manipulação de dados;
+cálculos auxiliares;
+geração de gráficos;
+impressão dos resultados.
 
-O objetivo é evitar repetição de código e tornar a aplicação mais organizada.
+O objetivo é evitar repetição de código e aumentar a organização do projeto.
 
----
+📁 data/
 
-### 📁 data/
+A pasta data armazenará todos os arquivos de dados utilizados pela aplicação.
 
-A pasta **data** armazenará todos os conjuntos de dados utilizados pela aplicação.
+Serão incluídos arquivos CSV contendo informações como:
 
-Serão incluídos arquivos em formato CSV contendo informações como:
+bairros;
+ruas;
+pontos de entrega;
+conexões entre localidades;
+distâncias entre os pontos.
 
-- bairros;
-- pontos de entrega;
-- coordenadas geográficas;
-- conexões entre localidades;
-- distâncias ou tempos estimados entre os pontos.
+Esses dados servirão de base para construção do grafo.
 
-Esses dados servirão como base para a construção do grafo utilizado pelos algoritmos.
+📁 docs/
 
----
+A pasta docs armazenará a documentação complementar do projeto.
 
-### 📁 docs/
+Entre os documentos previstos estão:
 
-A pasta **docs** será destinada à documentação complementar do projeto.
+diagramas;
+fluxogramas;
+documentação técnica;
+anotações do desenvolvimento.
+📁 images/
 
-Nela poderão ser armazenados materiais como:
+A pasta images armazenará todas as imagens utilizadas na documentação.
 
-- diagramas;
-- fluxogramas;
-- documentação técnica;
-- anotações de desenvolvimento;
-- materiais de apoio utilizados durante o projeto.
+Entre elas:
 
-Seu objetivo é centralizar toda a documentação relacionada à solução desenvolvida.
+diagramas;
+gráficos;
+fluxogramas;
+capturas de tela;
+imagens utilizadas no README.
+📁 notebooks/
 
----
+A pasta notebooks será utilizada para armazenar experimentos realizados com o Jupyter Notebook.
 
-### 📁 images/
+Ela poderá conter análises exploratórias, testes dos algoritmos e experimentações antes da implementação definitiva.
 
-A pasta **images** armazenará todas as imagens utilizadas na documentação do projeto.
+📁 tests/
 
-Entre elas poderão estar:
-
-- diagramas do grafo;
-- fluxogramas;
-- gráficos comparativos;
-- capturas de tela da execução do sistema;
-- imagens utilizadas no README.
-
-Essa organização facilita a manutenção da documentação visual do projeto.
-
----
-
-### 📁 notebooks/
-
-A pasta **notebooks** será utilizada para armazenar experimentos realizados com o Jupyter Notebook.
-
-Esse ambiente poderá ser utilizado para:
-
-- exploração dos dados;
-- testes dos algoritmos;
-- geração de gráficos;
-- análises preliminares antes da implementação definitiva.
-
-Embora não seja obrigatória para o funcionamento da aplicação, essa pasta facilita estudos e experimentações durante o desenvolvimento.
-
----
-
-### 📁 tests/
-
-A pasta **tests** conterá os testes desenvolvidos para validar o funcionamento da aplicação.
+A pasta tests conterá os testes desenvolvidos para validar a aplicação.
 
 Os testes serão utilizados para verificar:
 
-- o funcionamento dos algoritmos;
-- a consistência dos resultados;
-- possíveis falhas durante o desenvolvimento.
+funcionamento dos algoritmos;
+consistência dos resultados;
+possíveis falhas durante o desenvolvimento.
+📄 README.md
 
-Essa prática contribui para aumentar a confiabilidade da solução.
+O arquivo README.md é o principal documento do projeto.
 
----
+Ele apresenta:
 
-### 📄 README.md
+descrição do problema;
+objetivos;
+tecnologias utilizadas;
+estrutura do projeto;
+algoritmos implementados;
+instruções de execução;
+resultados obtidos;
+referências bibliográficas.
+📄 requirements.txt
 
-O arquivo **README.md** é o principal documento do projeto.
+O arquivo requirements.txt lista todas as bibliotecas Python necessárias para executar o projeto.
 
-Ele reúne todas as informações necessárias para compreender a proposta da solução, incluindo:
+As dependências podem ser instaladas por meio do comando:
 
-- descrição do problema;
-- objetivos;
-- tecnologias utilizadas;
-- estrutura do projeto;
-- algoritmos implementados;
-- instruções de execução;
-- resultados obtidos;
-- referências bibliográficas.
-
-Esse documento funciona como o guia principal para qualquer pessoa que deseje conhecer ou executar o projeto.
-
-
-### 📄 requirements.txt
-
-O arquivo **requirements.txt** lista todas as bibliotecas Python necessárias para executar o projeto.
-
-Por meio dele é possível instalar automaticamente todas as dependências utilizando o comando:
-
-```bash
 pip install -r requirements.txt
-```
+📄 .gitignore
 
-Esse procedimento garante que o ambiente de desenvolvimento possua todas as bibliotecas necessárias para o funcionamento da aplicação.
+O arquivo .gitignore define quais arquivos e diretórios não devem ser enviados ao repositório Git.
 
----
-### 📄 .gitignore
+Entre eles:
 
-O arquivo **.gitignore** define quais arquivos e diretórios não devem ser enviados ao repositório GitHub.
+ambiente virtual (.venv);
+arquivos temporários;
+cache do Python;
+configurações locais do ambiente.
 
-Entre eles normalmente estão:
-
-- ambiente virtual (.venv);
-- arquivos temporários;
-- cache do Python;
-- configurações locais do ambiente de desenvolvimento.
-
-Essa prática mantém o repositório mais organizado e evita o envio de arquivos desnecessários.
-
-
-#  Modelagem do Problema
-
-A cidade será representada como um **grafo ponderado**, onde:
-
-- Cada vértice representa um bairro ou ponto de entrega;
-- Cada aresta representa uma rua;
-- O peso da aresta representa a distância ou o tempo estimado entre dois pontos.
-
-Essa representação permite aplicar algoritmos clássicos de busca para encontrar rotas mais eficientes.
+Essa prática mantém o repositório organizado e evita o envio de arquivos desnecessários.
 
 ---
+## Modelagem do Problema
 
-Algoritmos Utilizados
+O cenário será representado por um grafo ponderado, no qual:
 
-Algo assim:
+cada vértice representa um bairro ou ponto de entrega;
+cada aresta representa uma rua;
+o peso da aresta representa a distância ou o tempo estimado entre dois pontos.
 
+Essa representação permite aplicar algoritmos clássicos de busca para determinar rotas mais eficientes.
+
+---
 ## Algoritmos Utilizados
 
-Este projeto utilizará algoritmos clássicos de Inteligência Artificial estudados durante a disciplina.
+Este projeto utilizará algoritmos clássicos estudados na disciplina.
 
-- Breadth-First Search (BFS)
-- Depth-First Search (DFS)
-- A*
-- K-Means
-- 
-Cada algoritmo será implementado e avaliado individualmente durante o desenvolvimento do projeto.
+## Algoritmo                              	Objetivo
+Breadth-First Search (BFS) : Encontrar caminhos utilizando busca em largura.
+Depth-First Search (DFS)	 : Explorar caminhos utilizando busca em profundidade.
+A*	                       : Encontrar o menor caminho utilizando heurísticas.
+K-Means	                   : Agrupar pontos de entrega em regiões próximas.
 
 ---
-Fluxo da Solução
+## Fluxo da Solução
 
-Uma imagem simples:
-
-Mapa da cidade
-        │
-        ▼
+Mapa da Cidade
+       │
+       ▼
 Construção do Grafo
-        │
-        ▼
-Aplicação do BFS / DFS / A*
-        │
-        ▼
-Agrupamento K-Means
-        │
-        ▼
-Resultados
+       │
+       ▼
+Aplicação dos Algoritmos
+(BFS • DFS • A*)
+       │
+       ▼
+Agrupamento com K-Means
+       │
+       ▼
+Resultados e Análises
 
 ---
-🟡 ## Como executar
+## Como Executar
 
+1- Clone o repositório. 
+git clone https://github.com/SEU-USUARIO/Artificial-Intelligence-Fundamentals.git
 
-#  Resultados
+2- Instale as dependências.
+pip install -r requirements.txt
 
-Esta seção será atualizada conforme a implementação dos algoritmos.
+3- Execute o projeto.
+python src/main.py
+
+---
+## Resultados
+
+Esta seção será atualizada conforme o desenvolvimento do projeto.
 
 Serão apresentados:
 
-- caminhos encontrados;
-- tempo de execução;
-- comparação entre algoritmos;
-- gráficos;
-- visualizações do grafo.
+caminhos encontrados;
+comparação entre algoritmos;
+tempo de execução;
+gráficos;
+visualizações do grafo.
 
 ---
 
-#  Limitações
+## Limitações
 
 As limitações identificadas durante o desenvolvimento serão documentadas nesta seção.
 
 Entre elas poderão estar:
 
-- simplificação da malha urbana;
-- utilização de dados simulados;
-- ausência de informações em tempo real sobre trânsito.
+simplificação da malha urbana;
+utilização de dados simulados;
+ausência de informações de trânsito em tempo real.
 
 ---
 
-#  Melhorias Futuras
+## Melhorias Futuras
 
-Como evolução deste projeto, podem ser implementadas:
+Como evolução do projeto, poderão ser implementadas:
 
-- integração com APIs de mapas;
-- utilização de dados reais de trânsito;
-- otimização dinâmica das rotas;
-- uso de aprendizado por reforço;
-- interface gráfica para visualização das rotas.
-
----
-
-#  Como Executar
-
-1. Clone o repositório
-
-```bash
-git clone https://github.com/SEU-USUARIO/Artificial-Intelligence-Fundamentals.git
-```
-
-2. Instale as dependências
-
-```bash
-pip install -r requirements.txt
-```
-
-3. Execute o projeto
-
-```bash
-python src/main.py
-```
+integração com APIs de mapas;
+utilização de dados reais de trânsito;
+otimização dinâmica das rotas;
+comparação entre diferentes heurísticas do algoritmo A*;
+utilização de aprendizado por reforço;
+desenvolvimento de uma interface gráfica para visualização das rotas.
 
 ---
-
-#  Referências
-
-- Material da disciplina Artificial Intelligence Fundamentals.
-- Russell, S.; Norvig, P. *Artificial Intelligence: A Modern Approach*.
-- Documentação oficial do NetworkX.
-- Documentação oficial do Scikit-Learn.
+## Referências
+Material da disciplina Fundamentos da Inteligência Artificial – UniFECAF.
+Russell, S.; Norvig, P. Artificial Intelligence: A Modern Approach.
+Documentação oficial do Python.
+Documentação oficial do NetworkX.
+Documentação oficial do Scikit-Learn.
