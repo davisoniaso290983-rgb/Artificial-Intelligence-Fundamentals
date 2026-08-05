@@ -56,24 +56,20 @@ Desenvolver uma solução computacional utilizando algoritmos clássicos de Inte
 
 O projeto foi organizado em pastas para facilitar o desenvolvimento, manutenção e organização do código-fonte. Cada diretório possui uma responsabilidade específica dentro da solução.
 
-```text
-Artificial-Intelligence-Fundamentals/
-│
-├── src/
-│   ├── algorithms/
-│   ├── models/
-│   └── utils/
-│
-├── data/
-├── docs/
-├── images/
-├── notebooks/
-├── tests/
-│
-├── README.md
-├── requirements.txt
-└── .gitignore
+## Estrutura do Projeto
 
+- 📁 src
+  - 📁 algorithms
+  - 📁 models
+  - 📁 utils
+- 📁 data
+- 📁 docs
+- 📁 images
+- 📁 notebooks
+- 📁 tests
+- 📄 README.md
+- 📄 requirements.txt
+- 📄 .gitignore
 ---
 
 ### 📁 src/
