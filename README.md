@@ -2,11 +2,11 @@
 
 > Projeto acadêmico desenvolvido para a disciplina **Fundamentos da Inteligência Artificial**.
 
-📌 Status ............. 🚧 Em desenvolvimento
+📌 Status: 🚧 Em desenvolvimento
 
-🎓 Curso .............. Gestão da Tecnologia da Informação – UniFECAF
+🎓 Curso:  Gestão da Tecnologia da Informação – UniFECAF
 
-👩 Autora Sonia Ávila de Oliveira
+👩 Autora: Sonia Ávila de Oliveira
 
 ##  Descrição do Projeto
 
