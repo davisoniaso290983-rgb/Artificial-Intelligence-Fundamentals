@@ -26,24 +26,26 @@ A proposta deste projeto é aplicar algoritmos clássicos de Inteligência Artif
 Desenvolver uma solução computacional utilizando algoritmos clássicos de Inteligência Artificial para otimizar as rotas de entrega da empresa Sabor Express.
 
 ## Objetivos Específicos
-Representar a cidade por meio de um grafo.
-Modelar bairros, ruas e pontos de entrega.
-Encontrar caminhos eficientes entre diferentes localidades.
-Comparar algoritmos clássicos de busca.
-Agrupar entregas utilizando técnicas de aprendizado não supervisionado.
-Avaliar os resultados obtidos.
+
+- Representar a cidade por meio de um grafo.
+- Modelar bairros, ruas e pontos de entrega.
+- Encontrar caminhos eficientes entre diferentes localidades.
+- Comparar algoritmos clássicos de busca.
+- Agrupar entregas utilizando técnicas de aprendizado não supervisionado.
+- Avaliar os resultados obtidos.
 
 ---
 ## Ferramentas e Tecnologias
-Python 3.13
-NetworkX
-NumPy
-Pandas
-Matplotlib
-Scikit-Learn
-Visual Studio Code
-Git
-GitHub
+
+- Python 3.13
+- NetworkX
+- NumPy
+- Pandas
+- Matplotlib
+- Scikit-Learn
+- Visual Studio Code
+- Git
+- GitHub
 
 ---
 
@@ -51,19 +53,25 @@ Estrutura do Projeto
 
 O projeto foi organizado em diretórios para facilitar o desenvolvimento, manutenção e organização do código-fonte.
 
-📁 src
-📁 algorithms
-📁 models
-📁 utils
-📁 data
-📁 docs
-📁 images
-📁 notebooks
-📁 tests
-📄 README.md
-📄 requirements.txt
-📄 .gitignore
-Explicação das Pastas
+## Estrutura do Projeto
+
+O projeto foi organizado em diretórios para facilitar o desenvolvimento.
+
+- 📁 src
+  - 📁 algorithms
+  - 📁 models
+  - 📁 utils
+- 📁 data
+- 📁 docs
+- 📁 images
+- 📁 notebooks
+- 📁 tests
+- 📄 README.md
+- 📄 requirements.txt
+- 📄 .gitignore
+
+## Explicação das Pastas
+
 📁 src/
 
 A pasta src (source) reúne todo o código-fonte do projeto. Nela serão desenvolvidas as funcionalidades da aplicação, incluindo a implementação dos algoritmos de Inteligência Artificial, a modelagem do problema e as funções responsáveis pelo processamento dos dados.
@@ -209,11 +217,12 @@ Essa representação permite aplicar algoritmos clássicos de busca para determi
 
 Este projeto utilizará algoritmos clássicos estudados na disciplina.
 
-## Algoritmo                              	Objetivo
-Breadth-First Search (BFS) : Encontrar caminhos utilizando busca em largura.
-Depth-First Search (DFS)	 : Explorar caminhos utilizando busca em profundidade.
-A*	                       : Encontrar o menor caminho utilizando heurísticas.
-K-Means	                   : Agrupar pontos de entrega em regiões próximas.
+| Algoritmo | Objetivo |
+|-----------|----------|
+| Breadth-First Search (BFS) | Busca em largura |
+| Depth-First Search (DFS) | Busca em profundidade |
+| A* | Encontrar o menor caminho |
+| K-Means | Agrupar entregas por proximidade |
 
 ---
 ## Fluxo da Solução
@@ -236,14 +245,23 @@ Resultados e Análises
 ---
 ## Como Executar
 
-1- Clone o repositório. 
+### 1. Clonar o repositório
+
+```bash
 git clone https://github.com/SEU-USUARIO/Artificial-Intelligence-Fundamentals.git
+```
 
-2- Instale as dependências.
+### 2. Instalar as dependências
+
+```bash
 pip install -r requirements.txt
+```
 
-3- Execute o projeto.
+### 3. Executar o projeto
+
+```bash
 python src/main.py
+```
 
 ---
 ## Resultados
@@ -252,11 +270,11 @@ Esta seção será atualizada conforme o desenvolvimento do projeto.
 
 Serão apresentados:
 
-caminhos encontrados;
-comparação entre algoritmos;
-tempo de execução;
-gráficos;
-visualizações do grafo.
+- caminhos encontrados;
+- comparação entre algoritmos;
+- tempo de execução;
+- gráficos;
+- visualizações do grafo.
 
 ---
 
@@ -266,9 +284,9 @@ As limitações identificadas durante o desenvolvimento serão documentadas nest
 
 Entre elas poderão estar:
 
-simplificação da malha urbana;
-utilização de dados simulados;
-ausência de informações de trânsito em tempo real.
+- simplificação da malha urbana;
+- utilização de dados simulados;
+- ausência de informações de trânsito em tempo real.
 
 ---
 
@@ -276,17 +294,18 @@ ausência de informações de trânsito em tempo real.
 
 Como evolução do projeto, poderão ser implementadas:
 
-integração com APIs de mapas;
-utilização de dados reais de trânsito;
-otimização dinâmica das rotas;
-comparação entre diferentes heurísticas do algoritmo A*;
-utilização de aprendizado por reforço;
-desenvolvimento de uma interface gráfica para visualização das rotas.
+- integração com APIs de mapas;
+- utilização de dados reais de trânsito;
+- otimização dinâmica das rotas;
+- comparação entre heurísticas do algoritmo A*;
+- utilização de aprendizado por reforço;
+- desenvolvimento de interface gráfica.
 
 ---
 ## Referências
-Material da disciplina Fundamentos da Inteligência Artificial – UniFECAF.
-Russell, S.; Norvig, P. Artificial Intelligence: A Modern Approach.
-Documentação oficial do Python.
-Documentação oficial do NetworkX.
-Documentação oficial do Scikit-Learn.
+
+- Material da disciplina Fundamentos da Inteligência Artificial – UniFECAF.
+- Russell, S.; Norvig, P. *Artificial Intelligence: A Modern Approach*.
+- Documentação oficial do Python.
+- Documentação oficial do NetworkX.
+- Documentação oficial do Scikit-Learn.
