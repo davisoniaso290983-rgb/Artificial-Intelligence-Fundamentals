@@ -6,7 +6,7 @@
 
 🎓 Curso .............. Gestão da Tecnologia da Informação – UniFECAF
 
-👩 Autora ............. Sonia Avila
+👩 Autora ............. Sonia Ávila de Oliveira
 
 ##  Descrição do Projeto
 
