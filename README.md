@@ -1,6 +1,7 @@
-# Artificial-Intelligence-Fundamentals
-Trabalho Curso Técnico em Gestão
-Sonia Avila
+Projeto desenvolvido para a disciplina **Artificial Intelligence Fundamentals**
+Curso de Gestão da Tecnologia da Informação – UniFECAF
+
+**Autora:** Sonia Avila
 
 ## Projeto: Otimização Inteligente de Rotas para a Sabor Express
 
