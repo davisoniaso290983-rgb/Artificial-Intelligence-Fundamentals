@@ -39,13 +39,13 @@ Desenvolver uma solução computacional utilizando algoritmos clássicos de Inte
 
 As seguintes tecnologias serão utilizadas durante o desenvolvimento do projeto:
 
-- **Python 3.13** — linguagem principal para implementação da solução.
+- **Python 3.13** — linguagem utilizada para desenvolver toda a solução proposta.
 - **NetworkX** — criação e manipulação do grafo utilizado pelos algoritmos de busca.
 - **NumPy** — operações matemáticas e manipulação de dados numéricos.
 - **Pandas** — leitura e tratamento dos arquivos CSV utilizados no projeto.
 - **Matplotlib** — geração de gráficos e visualização dos resultados.
 - **Scikit-Learn** — implementação do algoritmo K-Means para agrupamento das entregas.
-- **Visual Studio Code** — ambiente de desenvolvimento utilizado para programação.
+- **Visual Studio Code** — ambiente de desenvolvimento utilizado para implementação e testes da aplicação.
 - **Git** — controle de versão do projeto.
 - **GitHub** — hospedagem e gerenciamento do repositório.
 
