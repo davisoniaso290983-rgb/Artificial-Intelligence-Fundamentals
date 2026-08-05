@@ -37,15 +37,17 @@ Desenvolver uma solução computacional utilizando algoritmos clássicos de Inte
 ---
 ## Ferramentas e Tecnologias
 
-- Python 3.13
-- NetworkX
-- NumPy
-- Pandas
-- Matplotlib
-- Scikit-Learn
-- Visual Studio Code
-- Git
-- GitHub
+As seguintes tecnologias serão utilizadas durante o desenvolvimento do projeto:
+
+- **Python 3.13** — linguagem principal para implementação da solução.
+- **NetworkX** — criação e manipulação do grafo utilizado pelos algoritmos de busca.
+- **NumPy** — operações matemáticas e manipulação de dados numéricos.
+- **Pandas** — leitura e tratamento dos arquivos CSV utilizados no projeto.
+- **Matplotlib** — geração de gráficos e visualização dos resultados.
+- **Scikit-Learn** — implementação do algoritmo K-Means para agrupamento das entregas.
+- **Visual Studio Code** — ambiente de desenvolvimento utilizado para programação.
+- **Git** — controle de versão do projeto.
+- **GitHub** — hospedagem e gerenciamento do repositório.
 
 ---
 
