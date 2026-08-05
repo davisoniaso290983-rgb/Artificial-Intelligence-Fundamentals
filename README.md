@@ -1,4 +1,4 @@
-<img width="1070" height="121" alt="image" src="https://github.com/user-attachments/assets/5eaacb32-3fa4-40d6-8148-d8284bd6a239" />🚚 Otimização Inteligente de Rotas para a Sabor Express
+🚚 Otimização Inteligente de Rotas para a Sabor Express
 
 Projeto acadêmico desenvolvido para a disciplina Fundamentos da Inteligência Artificial.
 
