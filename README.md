@@ -37,7 +37,7 @@ Desenvolver uma solução computacional utilizando algoritmos clássicos de Inte
 
 ---
 
-#  Tecnologias Utilizadas
+# Tecnologias Utilizadas
 
 - Python 3.13
 - NetworkX
