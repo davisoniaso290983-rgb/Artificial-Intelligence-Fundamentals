@@ -223,7 +223,6 @@ Ele reúne todas as informações necessárias para compreender a proposta da so
 
 Esse documento funciona como o guia principal para qualquer pessoa que deseje conhecer ou executar o projeto.
 
----
 
 ### 📄 requirements.txt
 
