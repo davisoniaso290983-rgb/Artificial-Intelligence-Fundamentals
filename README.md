@@ -7,8 +7,6 @@
 
 Projeto acadêmico desenvolvido para a disciplina Fundamentos da Inteligência Artificial.
 
-📌 Status: 🚧 Em desenvolvimento
-
 🎓 Curso: Gestão da Tecnologia da Informação – UniFECAF
 
 👩 Autora: Sonia Ávila de Oliveira
