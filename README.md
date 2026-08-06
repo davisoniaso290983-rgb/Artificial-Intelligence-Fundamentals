@@ -1,5 +1,10 @@
 🚚 Otimização Inteligente de Rotas para a Sabor Express
 
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+![Python](https://img.shields.io/badge/python-3.13-blue)
+![Licença](https://img.shields.io/badge/licença-MIT-green)
+![GitHub](https://img.shields.io/badge/github-repositório-black)
+
 Projeto acadêmico desenvolvido para a disciplina Fundamentos da Inteligência Artificial.
 
 📌 Status: 🚧 Em desenvolvimento
