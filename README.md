@@ -9,7 +9,7 @@ Projeto acadêmico desenvolvido para a disciplina Fundamentos da Inteligência A
 
 🎓 Curso: Gestão da Tecnologia da Informação – UniFECAF
 
-👩 Autora: Sonia Ávila de Oliveira - RA: 165813
+👩 Autora: Sonia Ávila de Oliveira - 
 
 
 ---
